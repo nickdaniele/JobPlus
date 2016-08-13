@@ -141,7 +141,6 @@ let mapStateToProps = (state) => {
 
 let mapDispatchToProps = (dispatch) => {
   // Whenever loadJobs is called, the result should be passed to all reducers
-  // return bindActionCreators({ selectJob: selectJob , fetchYelp: fetchYelp}, dispatch);
   return bindActionCreators({ toggleModal: toggleModal, toggleModalOff: toggleModalOff }, dispatch);
 };
 

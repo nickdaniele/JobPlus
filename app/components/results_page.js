@@ -30,7 +30,6 @@ export default class Results extends Component {
   initJob(job) {
     this.props.selectJob(job);
     this.props.fetchYelp(job.city, job.latitude, job.longitude);
-    //this.props.fetchGPlaces(job.latitude, job.longitude);
     this.props.fetchTrains(job.latitude, job.longitude);
     this.props.fetchBus(job.latitude, job.longitude);
     this.props.fetchParks(job.latitude, job.longitude);

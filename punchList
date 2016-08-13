@@ -15,7 +15,7 @@ Map:
   *- Info window for jobs when hovered over on map
   - Change double click for map open to hover | button
   - Change map pointer from drag icon to click
-  - Dynamically center selected job on map 
+  *- Dynamically center selected job on map 
 
 Job Detail:
   *- Default to first job on joblist (Highlight, update jobinfo/places/yelp)
