@@ -3,7 +3,7 @@ Job+ consolidates searches distinct to work/life balance into a single page appl
 
 Link:   http://jobplus.online
 
-## Technologies:
+## Technologies (Full List):
 - React / Redux
 - Node.js / Express
 - Webpack
